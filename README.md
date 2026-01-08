@@ -60,3 +60,16 @@ This approach improves accuracy and handles multilingual inputs more effectively
 ```bash
 git clone https://github.com/snehxa27/Lang.git
 cd Lang
+
+python -m venv .venv
+source .venv/bin/activate
+pip install pandas scikit-learn
+python lang.py
+🧪 Example Output
+📝 Enter sentence: नमस्कार तुम्ही कसे आहात
+🧾 Script detected: Devanagari
+✅ Predicted Language: Marathi
+
+📝 Enter sentence: hola como estas
+🧾 Script detected: Latin
+✅ Predicted Language: Spanish
